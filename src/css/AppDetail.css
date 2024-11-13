@@ -1,0 +1,104 @@
+.AppDetail-midasi{
+    border-left:5px solid #3ea632;
+    padding:2px 8px;
+}
+
+.AppDetail-main{
+    color: #4b4b4b;
+    background-color: #fafafa;
+}
+
+.AppDetail-pad{
+    padding: 8px;
+}
+
+.AppDetail-ex{
+    width: 8rem;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.AppDetail-foot{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.AppDetail-com{
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.AppDetail-categori{
+    border-radius: 25px;
+    background-color: #fafafa;
+    border:2px solid #4b4b4b;
+    color: #4b4b4b;
+    padding: .1rem 1rem;
+}
+
+.AppDetail-fl-left{
+    position: absolute;
+    left: 0;
+    padding-left: 16px;
+}
+
+.AppDetail-fl-right{
+    position: absolute;
+    right: 0;
+    padding-right: 16px;
+}
+
+.AppDetail-update-botm{
+    padding-top: 1.5rem;
+}
+
+.AppDetail-update{
+    border-radius: 25px;
+    background-color: #fafafa;
+    border:2px solid #4b4b4b;
+    color: #4b4b4b;
+    padding: .1rem 1rem;
+}
+
+.AppDetail-update-user{
+    display: none;
+}
+
+.AppDetail-pad-botm{
+    padding-top: 1.5rem;
+}
+
+.AppDetail-pad-left{
+    padding-left: 30px;
+}
+
+.AppDetail-LinkImage {
+    width: 8rem;
+}
+
+.AppDetail-div-center {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    justify-content: space-around;
+}
+
+.AppDetail-a {
+    display: block;
+    height: auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.AppDetail-info {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.AppDetail-p-left{
+    text-align: start;
+}

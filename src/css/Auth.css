@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.Auth-wrap {
+    margin: 1.5rem .5rem;
+}
+
+.Auth-nav {
+    --bs-nav-link-color: #4b4b4b;
+    --bs-nav-link-hover-color: #4b4b4b;
+    --bs-nav-tabs-border-color: #4b4b4b;
+    --bs-nav-tabs-link-hover-border-color: #3EA632;
+    --bs-nav-tabs-link-active-color: #3EA632;
+    --bs-nav-tabs-link-active-border-color: #3EA632;
+}
+
+.Auth-tab-content {
+    margin-top: 3rem;
+}
+
+.Auth-inputContent {
+    position: relative;
+    width: fit-content;
+    margin: 1rem auto;
+}
+
+.Auth-label {
+    text-align: center;
+    margin: .5rem;
+}
+
+.Auth-email, .Auth-password, .Auth-text {
+    font-size: .8rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.Auth-submit {
+    display: flex;
+    margin: 5rem auto;
+}
+
+.Auth-signUpError {
+    position: fixed;
+    left: 50%;
+    font-size: .8rem;
+    color: red;
+}
+
+#Auth-signUp-dbError {
+    position: fixed;
+    left: 50%;
+    font-size: .8rem;
+    color: red;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#Auth-signUp-mailError {
+    transform: translateX(-50%) translateY(60%);
+}
+
+#Auth-signUp-passwordError {
+    transform: translateX(-50%) translateY(170%);
+}
+
+#Auth-login-buttonEye, #Auth-signUp-buttonEye {
+    position: absolute;
+    z-index: 5;
+    left: 87%;
+    top: 67%;
+}
+
+::-ms-reveal {
+    display: none;
+}
